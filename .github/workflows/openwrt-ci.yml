@@ -97,8 +97,8 @@ jobs:
           # 编译极路由3固件:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
-          CONFIG_TARGET_ramips_mt7620n=y
-          CONFIG_TARGET_ramips_mt7620n_DEVICE_asus_rt_n14u=y
+          CONFIG_TARGET_ramips_mt7620=y
+          CONFIG_TARGET_ramips_mt7620_DEVICE_asus_rt_n14u=y
           EOF
           # 固件压缩:
           cat >> .config <<EOF
