@@ -97,8 +97,8 @@ jobs:
           # 编译极路由3固件:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
-          CONFIG_TARGET_ramips_mt7620=y
-          CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_hc5861=y
+          CONFIG_TARGET_ramips_mt7620n=y
+          CONFIG_TARGET_ramips_mt7620n_DEVICE_asus_rt-n14u=y
           EOF
           # 固件压缩:
           cat >> .config <<EOF
@@ -168,3 +168,15 @@ jobs:
         with:
           name: OpenWrt firmware
           path: ./bin/targets/
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
